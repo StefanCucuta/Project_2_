@@ -1,4 +1,4 @@
-//* Indentifiers *//
+// Indentifiers
 let userScore = 0;
 let compScore = 0;
 let pervScores = JSON.parse(localStorage.getItem("pervScores")) || [];
@@ -21,6 +21,35 @@ const submit_save = document.getElementById("submit_save");
 const score_list_element = document.getElementById("scores");
 
 
+// Score & Name list Storage
+
+
+function saveScore(name) {
+    if (userScore && compScore && name) {
+        const score = {
+            name: name,
+            score: userScore,
+            computer: compScore,
+        };
+        pervScores.push(score);
+
+        localStorage.setItem("pervScores", JSON.stringify(pervScores));
+        resetScore();
+        renderScore();
+    } else {
+        if (!userScore || !compScore) alert("You have to play first !");
+        else alert("Name is required !");
+    }
+}
+
+function renderScore() {
+    score_list_element.innerHTML = pervScores
+        .map(function (score) {
+            return `<li><strong>${score.name}<strong> ${score.score}
+        - ${score.computer} <strong>Computer</strong> </li>`;
+        })
+        .join(" ");
+}
 
 
 
