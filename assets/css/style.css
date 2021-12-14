@@ -12,7 +12,8 @@ body{
 }
 
 .heading{
-
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30%;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     padding-top: 30px;
@@ -38,15 +39,51 @@ body{
 .option img{
     border-radius:25%;
     height:150px;
-    border:5px solid #ff0000;
-    
+    border:5px solid #ff0000;  
 }
 
 .option img:hover {
     cursor: pointer;
     border:7px solid #fabbbb;
-    transition: all 0.3s ease;
-    
-    
+    transition: all 0.3s ease;   
 }
 
+/* Let's go!  Content and Dislay Results */
+.result{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    color:#000000;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* Score Area */
+.score-area {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30%;
+    color:#1b262c;
+    text-align: center;
+    display:flex;
+    justify-content:space-evenly; 
+    margin: 25px;
+    color:#000000;
+    font-size: 35px;
+    font-weight:bold;  
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#score {
+    height: 30px;
+    font-weight: bold;
+}
+
+#incorect{
+    height: 30px;
+    font-weight: bold;
+
+}
