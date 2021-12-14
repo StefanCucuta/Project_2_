@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Open+Sans:wght@300&family=Oswald&family=Roboto+Slab:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#3282b8;
+}
+
+.heading{
+    background: radial-gradient(white 10px , #eff304 73%,#e9926a 10%);
+    text-align: center;
+}
+.logo{
+    border-radius: 75px;
+    height:120px; 
+}
+
