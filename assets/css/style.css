@@ -120,7 +120,7 @@ body{
 
 
 .reset.btn{
-    border: 5px solid #ffffff;
+    border: 5px solid #000000;
 }
 
 .reset.btn:hover{
@@ -134,7 +134,7 @@ body{
 
 .save.btn:hover{
     cursor:pointer;
-    border :3px solid #ffffff;
+    border :3px solid #000000;
     transition:all 0.4s ease;
 }
 
