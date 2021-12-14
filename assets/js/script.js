@@ -51,5 +51,33 @@ function renderScore() {
         .join(" ");
 }
 
+// Game Result Display
+
+function getCompChoice() {
+    const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+    const randomNumber = Math.floor(Math.random() * choices.length);
+    return choices[randomNumber];
+}
+
+function WIN(userChoice, compChoice) {
+
+    userScore++;
+    userScore_span.innerHTML = userScore;
+    result_p.innerHTML = `${userChoice} -  <small>beats</small>  - 
+        ${compChoice} <br>  <span class = 'win'> You Win ! </span>`;
+}
+
+function LOST(userChoice, compChoice) {
+
+    compScore++;
+    compScore_span.innerHTML = compScore;
+    result_p.innerHTML = `${userChoice}  -  <small> is beaten by </small>  -
+        ${compChoice} <br>  <span class = 'lost'> You Lost ! </span> `;
+}
+
+
+function DRAW(userChoice, compChoice) {
+    result_p.innerHTML = `${userChoice}   =   ${compChoice}  <br> Is a Draw !`;
+}
 
 
