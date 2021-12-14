@@ -87,3 +87,60 @@ body{
     font-weight: bold;
 
 }
+
+/* Rules / Reset / Save Score Buttons */
+
+
+#buttons{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+.btn{
+    
+    height:30px;
+    width: 75px;
+    margin-top: 10px;
+    background-color:#e5ff00;
+    color: #000000;
+    font-weight: bold;
+}
+
+.rules.btn {
+    border:5px solid #000000;
+}
+
+.rules.btn:hover{
+    cursor:pointer;
+    border :3px solid greenyellow;
+    transition:all 0.4s ease;
+}
+
+
+.reset.btn{
+    border: 5px solid #ffffff;
+}
+
+.reset.btn:hover{
+    cursor:pointer;
+    border :3px solid #a81d1d;
+    transition:all 0.4s ease;
+}
+.save.btn {
+    border: 5px solid #000000;
+}
+
+.save.btn:hover{
+    cursor:pointer;
+    border :3px solid #ffffff;
+    transition:all 0.4s ease;
+}
+
+.lost { 
+    color :#ff0000;
+}
+.win {
+    color:rgb(0, 255, 42);
+}
