@@ -90,7 +90,7 @@ function resetScore() {
     compScore = 0;
     compScore_span.innerHTML = "0";
     userScore_span.innerHTML = "0";
-    result_p.innerHTML = "<p>Let's go!</p>";
+    result_p.innerHTML = "<p>Let's go! <br>&#11015;      &#11015;     &#11015;</p>";
 }
 button_reset.addEventListener("click", resetScore);
 button_rules.addEventListener("click", function () {

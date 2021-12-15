@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Open+Sans:wght@300&family=Oswald&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Indie+Flower&family=Open+Sans:wght@300&family=Oswald&family=Roboto+Slab:wght@300&display=swap');
 
 *{
     margin:0;
@@ -6,14 +6,16 @@
 }
 
 body{
-    background-color:#8e8f89;
+    background-color:rgb(252, 236, 82 );
 }
 
 .heading{
-    color: rgb(252, 252, 252);
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     padding-top: 30px;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(173, 226, 93 );
     text-align: center;
     border-radius: 0 0 40% 40%;
 }
@@ -33,19 +35,20 @@ body{
 }
 
 .option img{
-    border-radius:25%;
-    height:150px;
-    border:5px solid #ff0000;  
+    border-radius: 50%;
+    height: 150px;
+    border: 3px solid #000000;  
 }
 
 .option img:hover {
     cursor: pointer;
-    border:7px solid #fabbbb;
+    border:7px solid #09ff00;
     transition: all 0.3s ease;   
 }
 
 /* Let's go!  Content and Dislay Results */
 .result{
+    font-family: 'Indie Flower', cursive;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 30%;
     margin-top: 40px;
@@ -58,6 +61,7 @@ body{
 
 /* Score Area */
 .score-area {
+    font-family: 'Indie Flower', cursive;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 30%;
     color:#1b262c;
@@ -74,11 +78,13 @@ body{
 }
 
 #score {
+    font-family: 'Indie Flower', cursive;
     height: 30px;
     font-weight: bold;
 }
 
 #incorect{
+    font-family: 'Indie Flower', cursive;
     height: 30px;
     font-weight: bold;
 
@@ -96,11 +102,12 @@ body{
 
 
 .btn{
-    
+    border-radius: 30%;
+    font-family: 'Indie Flower', cursive;
     height:30px;
     width: 75px;
     margin-top: 10px;
-    background-color:#e5ff00;
+    background-color: rgb(196, 91, 170);
     color: #000000;
     font-weight: bold;
 }
@@ -131,7 +138,7 @@ body{
 
 .save.btn:hover{
     cursor:pointer;
-    border :3px solid #000000;
+    border :3px solid #1100ff;
     transition:all 0.4s ease;
 }
 
@@ -155,7 +162,7 @@ body{
 
 }
 .popupContent {
-    background-color: #00ff0d;
+    background-color: rgb(235, 100, 36);
     height: 80vh;
     width: 30vw;
     min-width: 250px;
@@ -199,13 +206,13 @@ ul#scores li {
 
 #action-message {
 
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-family: Asap, sans-serif;
+    font-family: 'Indie Flower', cursive;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 30%;   
 }
@@ -213,6 +220,14 @@ ul#scores li {
 
 @media (max-width:567px) {
  
+.heading {
+    font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    background-color: rgb(173, 226, 93 );
+    text-align: center;
+    border-radius: 0 0 40% 40%;
+}
 
 .logo{
     height:80px; 

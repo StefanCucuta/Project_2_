@@ -2,53 +2,54 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Play a classic game of Rock-Paper-Scissors-lisard-spock.">
-    <meta name="keywords" content="rock, paper, scissors, lisard, spock game">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Play a classic game of Rock-Paper-Scissors-lisard-spock.">
+  <meta name="keywords" content="rock, paper, scissors, lisard, spock game">
+  <link rel="stylesheet" href="assets/css/style.css">
 
 
-    <title>Rock, paper, scissors, lisard, spock game</title>
+  <title>Rock, paper, scissors, lisard, spock game</title>
 </head>
 
 <body>
-    <!-- Heading  -->
-    <div class="heading">
-        <h1 class="logo">Rock, paper, scissors, lisard, spock <br> * game * </h1>
-    </div>
-
-        <!-- Result Content / Click & Play -->
-
-  <div class="result">
-    <p>Let's go!</p>
+  <!-- Heading  -->
+  <div class="heading">
+    <h1 class="logo">Rock, paper, scissors, lisard, spock <br> * game * </h1>
   </div>
 
-    <!-- Game Area -->
-    <div class="game-area">
+  <!-- Result Content / Click & Play -->
 
-        <div class="option" id="rock">
-            <img src="assets/images/rock.png" alt="rock">
-        </div>
+  <div class="result">
+    <p>Let's go! <br>
+      &#11015; &#11015; &#11015;</p>
+  </div>
 
-        <div class="option" id="paper">
-            <img src="assets/images/paper.png" alt="paper">
-        </div>
+  <!-- Game Area -->
+  <div class="game-area">
 
-        <div class="option" id="scissors">
-            <img src="assets/images/scissors.png" alt="scissor">
-        </div>
-
-        <div class="option" id="lizard">
-            <img src="assets/images/lizard.png" alt="lizard">
-        </div>
-
-        <div class="option" id="spock">
-            <img src="assets/images/spock.png" alt="spock">
-        </div>
-
+    <div class="option" id="rock">
+      <img src="assets/images/rock.png" alt="rock">
     </div>
+
+    <div class="option" id="paper">
+      <img src="assets/images/paper.png" alt="paper">
+    </div>
+
+    <div class="option" id="scissors">
+      <img src="assets/images/scissors.png" alt="scissor">
+    </div>
+
+    <div class="option" id="lizard">
+      <img src="assets/images/lizard.png" alt="lizard">
+    </div>
+
+    <div class="option" id="spock">
+      <img src="assets/images/spock.png" alt="spock">
+    </div>
+
+  </div>
 
 
 
@@ -60,33 +61,33 @@
 
   <!-- Rules / Reset / Save Score Buttons -->
 
-<div id="buttons">
-  <div class="btn-container">
-    <button class="btn rules">RULES</button>
+  <div id="buttons">
+    <div class="btn-container">
+      <button class="btn rules">RULES</button>
+    </div>
+    <div class="btn-container">
+      <button class="btn reset">RESET</button>
+    </div>
+    <div class="btn-container">
+      <button class="btn save">SAVE</button>
+    </div>
   </div>
-  <div class="btn-container">
-    <button class="btn reset">RESET</button>
-  </div>
-  <div class="btn-container">
-    <button class="btn save">SAVE</button>
-  </div>
-</div>
 
-<!-- Save Score Content and Close Button  -->
-<div id="save_popup" class=popupContainer>
+  <!-- Save Score Content and Close Button  -->
+  <div id="save_popup" class=popupContainer>
     <div class=popupContent>
       <button class="close" id="close_save">EXIT</button>
       <h2>Rock Paper Scissors Lizard Spock</h2>
       <h2>Save Score</h2>
       <form>
-      <div>
-       
-        <label for="name_field">Name</label>
-        <input type="text" name="name" id="name_field" value="">
-        <button class="btn save" id="submit_save">Save</button>
+        <div>
 
-      </div>
-    </form>
+          <label for="name_field">Name</label>
+          <input type="text" name="name" id="name_field" value="">
+          <button class="btn save" id="submit_save">Save</button>
+
+        </div>
+      </form>
       <ul id="scores"></ul>
 
     </div>
@@ -102,13 +103,13 @@
       <h2>Rock Paper Scissors Lizard Spock </h2>
       <h3>Game Rules: </h3>
 
-      <p>Each hand signal wins against 2 of the other signals. 
-        Scissors cuts paper, paper covers rock, rock crushes lizard, 
-        lizard poisons Spock, Spock smashes scissors, 
+      <p>Each hand signal wins against 2 of the other signals.
+        Scissors cuts paper, paper covers rock, rock crushes lizard,
+        lizard poisons Spock, Spock smashes scissors,
         scissors decapitates lizard,
-         lizard eats paper, paper disproves Spock, 
-         Spock vaporizes rock, and rock crushes scissors. 
-         Whoever throws the winning signal wins!</p>
+        lizard eats paper, paper disproves Spock,
+        Spock vaporizes rock, and rock crushes scissors.
+        Whoever throws the winning signal wins!</p>
     </div>
   </div>
 
