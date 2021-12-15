@@ -2,6 +2,8 @@
 let userScore = 0;
 let compScore = 0;
 let pervScores = JSON.parse(localStorage.getItem("pervScores")) || [];
+
+
 const userScore_span = document.getElementById("score");
 const compScore_span = document.getElementById("incorect");
 const result_p = document.querySelector(".result > p");
@@ -111,14 +113,14 @@ submit_save.addEventListener("click", function () {
 });
 
 function winGame() {
-    if(userScore>compScore) {
+    if (userScore > compScore) {
         alert("You won! Save your score and play again!");
     }
     save_popup.style.display = "block";
 }
 
 function loseGame() {
-    if(compScore>userScore) {
+    if (compScore > userScore) {
         alert("You lost! Try again!");
     }
     resetScore();
@@ -167,10 +169,10 @@ function game(userChoice) {
             DRAW(userChoice, compChoice);
             break;
     }
-    if(userScore >= 10) {
+    if (userScore >= 10) {
         winGame();
     }
-    if(compScore == 10) {
+    if (compScore == 10) {
         loseGame();
     }
 }
