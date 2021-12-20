@@ -46,13 +46,14 @@ Rock paper scissors lizard spock is an extension of the classic game of chance, 
 Rock, Paper, Scissors, Lizard, Spock game is created to be played between user and computer.
 
 - top middle screen is displayed the game name. 
-- under game area is displayed score area for user (left) and computer (right)
+- under game name is displayed the game result depending what button has been chosed
 - centre of the screen displays game area with five icons:  
   - 1st icon ROCK
   - 2nd icon PAPER
   - 3rd icon SCISSORS
   - 4th icon LIZARD
   - 5th icon SPOCK
+ - under game area is displayed score area for user (left) and computer (right)
  - bottom centre of the screen is displayed the:
  - RULES button that will provide the rules of the game.
  - RESET button that will provide the option to reset the score.
@@ -84,4 +85,13 @@ Rock, Paper, Scissors, Lizard, Spock game is created to be played between user a
   [COOLORS]( https://coolors.co) was used to extract the main colours for the website:
   
   ![](assets/images/colors.png)
+
+
+  ## Skeleton
+### Wireframes 
+ 
+- Landing page :  [mobile](assets/images/desktop.png) , [desktop](assets/images/mobile.png)
+  
+
+
 
