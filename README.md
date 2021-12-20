@@ -156,7 +156,7 @@ Rock, Paper, Scissors, Lizard, Spock game is created to be played between user a
 #### Media
    - Images used were taken from :
      - [PIKPNG]( https://www.pikpng.com/pngvi/Jhxmoi_pierre-ciseaux-feuille-lzard-spock-aligned-rock-paper/)
-  - The image have been cropped, resized and compressed in order to boost the UX flow.
+  - The image have been cropped using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html), resized and compressed in order to boost the UX flow.
   
 #### Code
 [Love Maths Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/) by Code Institute as a general resource.
