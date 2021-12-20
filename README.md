@@ -139,7 +139,7 @@ Rock, Paper, Scissors, Lizard, Spock game is created to be played between user a
   
   - The project was deployed to GitHub Pages using the following steps:
 
-   1 Log in to GitHub and locate the Rock Paper Scissors Lizard Spock Game Repository
+   1 Log in to GitHub and locate the Project_2_ Repository
 
    2 At the top of the Repository, locate and click the "Settings" Button on the menu
 
