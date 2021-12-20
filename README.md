@@ -103,7 +103,7 @@ Rock, Paper, Scissors, Lizard, Spock game is created to be played between user a
 
 ### Functionality Testing
 ### Performance Test 
-  ![Chrome Lighthouse](assets/images/screen/lighthouse.png)
+  ![Chrome Lighthouse](assets/images/lighthouse.png)
 
   
 ### Validator testing
