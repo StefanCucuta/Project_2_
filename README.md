@@ -91,7 +91,79 @@ Rock, Paper, Scissors, Lizard, Spock game is created to be played between user a
 ### Wireframes 
  
 - Landing page :  [mobile](assets/images/desktop.png) , [desktop](assets/images/mobile.png)
+
+### Technology Used 
+- HTML
+- CSS
+- JavaScript
+- Libraries [Google Fonts] (https://fonts.google.com/specimen/Indie+Flower?query=indie)
+
+## Testing
+
+
+### Functionality Testing
+### Performance Test 
+  ![Chrome Lighthouse](assets/images/screen/lighthouse.PNG)
+
   
+### Validator testing
+  * HTML
+    - No errors were returned when passing through the   official [w3c html validator ] (https://validator.w3.org/).
+  
+  ![](assets/images/html.png)
+
+  * CSS
+    - No errors were found when passing through the official [w3c jigsaw validator ] (https://jigsaw.w3.org/css-validator/).
+   
+   ![](assets/images/css.png)
+
+  * JavaScript
+  
+    - No errors were found when passing through the official [JSHINT](https://jshint.com/)
+  
+  ![](assets/images/js.png).
+
+  ### Accessibility
+
+  Accessibility was tested with both Chrome Lighthouse [a11y contrast checker](https://color.a11y.com/)  and no issues were found. ![](assets/images/a11y.png)
+
+
+  
+### Compatibility
+  ### Unfixed Bugs
+  - No bugs to be fixed
+
+  ### Deployment
+
+- Git Hub Pages
+  
+  - The project was deployed to GitHub Pages using the following steps:
+
+   1 Log in to GitHub and locate the Rock Paper Scissors Lizard Spock Game Repository
+
+   2 At the top of the Repository, locate and click the "Settings" Button on the menu
+
+  3 Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
+  4 Under "Source", click the dropdown called "None" and select "main" branch.
+
+  5 The page will automatically refresh.
+
+  6 Scroll back down through the page to locate the now published [Project_2_]( https://stefancucuta.github.io/Project_2_/) in the "GitHub Pages" section.
+
+### Credits
+  
+#### Media
+   - Images used were taken from :
+     - [PIKPNG]( https://www.pikpng.com/pngvi/Jhxmoi_pierre-ciseaux-feuille-lzard-spock-aligned-rock-paper/)
+  - The image have been cropped, resized and compressed in order to boost the UX flow.
+  
+#### Code
+[Love Maths Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/) by Code Institute as a general resource.
+
+[W3School](https://www.w3schools.com/) as a general resource.
+
+[Stackoverflow](https://stackoverflow.com/) as a general resource.
 
 
 
